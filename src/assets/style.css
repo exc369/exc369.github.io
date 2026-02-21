@@ -155,7 +155,10 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body {
+  background: var(--smoky-black);
+  scrollbar-gutter: stable;
+}
 
 
 
@@ -1728,6 +1731,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
+  }
+
+  .service-list li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: calc(50% - 12.5px);
+    justify-self: center;
   }
 
   /* testimonials */

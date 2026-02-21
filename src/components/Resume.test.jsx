@@ -33,10 +33,11 @@ describe('Resume', () => {
     expect(screen.getByText('WordPress')).toBeInTheDocument()
   })
 
-  it('renders timeline entries for education', () => {
+  it('renders timeline entries for education and experience', () => {
     render(<Resume isActive={true} />)
-    expect(screen.getByRole('heading', { name: /university school of the arts/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /new york academy of art/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /high school of art and design/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /case western reserve university/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /software engineer ii/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /software engineer i,/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /software engineering intern/i })).toBeInTheDocument()
   })
 })

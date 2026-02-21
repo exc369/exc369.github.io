@@ -18,16 +18,15 @@ describe('About', () => {
     expect(screen.getByRole('heading', { name: /about me/i })).toBeInTheDocument()
   })
 
-  it('renders all four service items', () => {
+  it('renders service items', () => {
     render(<About isActive={true} />)
-    expect(screen.getByRole('heading', { name: /web design/i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /web development/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /api development/i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /mobile apps/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /photography/i })).toBeInTheDocument()
   })
 
   it('renders the bio text', () => {
     render(<About isActive={true} />)
-    expect(screen.getByText(/full stack developer/i)).toBeInTheDocument()
+    expect(screen.getByText(/software developer/i)).toBeInTheDocument()
   })
 })
