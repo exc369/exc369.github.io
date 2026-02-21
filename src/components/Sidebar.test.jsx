@@ -23,13 +23,12 @@ describe('Sidebar', () => {
   it('renders the name and title', () => {
     render(<Sidebar isOpen={false} onToggle={() => {}} />)
     expect(screen.getByText('Eric Chang')).toBeInTheDocument()
-    expect(screen.getByText('Full Stack developer')).toBeInTheDocument()
+    expect(screen.getByText('Full Stack Developer')).toBeInTheDocument()
   })
 
   it('renders contact details', () => {
     render(<Sidebar isOpen={true} onToggle={() => {}} />)
-    expect(screen.getByText('nonoeric123@gmail.com')).toBeInTheDocument()
-    expect(screen.getByText('Columbus, Ohio, USA')).toBeInTheDocument()
-    expect(screen.getByText('July 1, 2000')).toBeInTheDocument()
+    expect(screen.getByText('exc369@case.edu')).toBeInTheDocument()
+    expect(screen.getByText('Columbus, OH')).toBeInTheDocument()
   })
 })

@@ -10,7 +10,7 @@ function Sidebar({ isOpen, onToggle }) {
 
         <div className="info-content">
           <h1 className="name" title="Eric Chang">Eric Chang</h1>
-          <p className="title">Full Stack developer</p>
+          <p className="title">Full Stack Developer</p>
         </div>
 
         <button className="info_more-btn" onClick={onToggle}>
@@ -32,17 +32,7 @@ function Sidebar({ isOpen, onToggle }) {
             </div>
             <div className="contact-info">
               <p className="contact-title">Email</p>
-              <a href="mailto:nonoeric123@gmail.com" className="contact-link">nonoeric123@gmail.com</a>
-            </div>
-          </li>
-
-          <li className="contact-item">
-            <div className="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-            <div className="contact-info">
-              <p className="contact-title">Birthday</p>
-              <time dateTime="2000-07-01">July 1, 2000</time>
+              <a href="mailto:exc369@case.edu" className="contact-link">exc369@case.edu</a>
             </div>
           </li>
 
@@ -52,7 +42,7 @@ function Sidebar({ isOpen, onToggle }) {
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address>Columbus, Ohio, USA</address>
+              <address>Columbus, OH</address>
             </div>
           </li>
 
