@@ -41,7 +41,8 @@ function Resume({ isActive }) {
         <ol className="timeline-list">
 
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">JPMorganChase Software Engineer II, Associate</h4>
+            <h4 className="h4 timeline-item-title">Software Engineer II</h4>
+            <span>JPMorgan Chase & Co</span>
             <span>2025 - Present</span>
             <p className="timeline-text">
               Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
@@ -50,7 +51,8 @@ function Resume({ isActive }) {
           </li>
 
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">JPMorganChase Software Engineer I, Analyst</h4>
+            <h4 className="h4 timeline-item-title">Software Engineer I</h4>
+            <span>JPMorgan Chase & Co</span>
             <span>2022 - 2025</span>
             <p className="timeline-text">
               Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
@@ -59,7 +61,8 @@ function Resume({ isActive }) {
           </li>
 
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">JPMorganChase Software Engineering Intern</h4>
+            <h4 className="h4 timeline-item-title">Software Engineering Intern</h4>
+            <span>JPMorgan Chase & Co</span>
             <span>Summer 2021</span>
             <p className="timeline-text">
               Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
